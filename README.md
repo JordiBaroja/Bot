@@ -38,6 +38,7 @@ If someone wants to run this project on their PC, it will need to have installed
 * Networkx: this is to create graph objects, useful when they are big nd linked to information (as distance or colour).
 * Static map (pip install staticmap): this is to make plots of the graphs.
 * Pillow (pip install pillow): necessary to have networkx package.
+* Requests (pip install requests): necessary to have networkx package.
 * Haversine (pip install haversine): this is used to calculate distance when we have the coordinates of some place on Earth.
 * Fuzzysearch (pip install fuzzysearch): this is used to earch restaurants when and allowing the word to have typing errors.
  
