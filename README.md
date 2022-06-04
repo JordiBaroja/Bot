@@ -31,4 +31,14 @@ In this python file we implement the bot, the gadget that it will be visible to 
   
 ## Need to install
   
-If someone wants to run this project on their PC, it will need to have installed some modules tht allow to run some necessary functions.
+If someone wants to run this project on their PC, it will need to have installed some modules tht allow to run some necessary functions:
+  
+* Typing extensions: you can install it with "pip install typing-extensions", "pip3 install typing-extensions" or “python -m pip install typing-extensions“. This is to make the TypeAlias, useful for naming your own objects in a more readable way.
+* Osmnx: the same as before, just type omnx instead of typing-extensions. This is to get the barcelona graph.
+* Networkx: this is to create graph objects, useful when they are big nd linked to information (as distance or colour).
+* Static map (pip install staticmap): this is to make plots of the graphs.
+* Pillow (pip install pillow): necessary to have networkx package.
+* Haversine (pip install haversine): this is used to calculate distance when we have the coordinates of some place on Earth.
+* Fuzzysearch (pip install fuzzysearch): this is used to earch restaurants when and allowing the word to have typing errors.
+ 
+ We need to use the command $ conda activate ox in the directory we are going to run the script, to activate conda environment.
